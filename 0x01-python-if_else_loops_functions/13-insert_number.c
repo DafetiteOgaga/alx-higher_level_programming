@@ -4,7 +4,6 @@
  * insert_node - Inserts a number into a sorted singly linked list.
  * @head: A pointer to the pointer of head of the linked list.
  * @number: Number to insert.
- * Author - Promise Nwhator
  * Return: If the function fails - NULL.
  *         Otherwise - a pointer to the new node.
  */
