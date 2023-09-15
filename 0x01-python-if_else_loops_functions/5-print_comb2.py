@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author - Promise Nwhator
 
 for i in range(0, 100):
     if i == 99:
