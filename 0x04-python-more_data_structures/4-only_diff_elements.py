@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def only_diff_elements(set_1, set_2):
     """

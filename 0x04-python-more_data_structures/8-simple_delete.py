@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def simple_delete(a_dictionary, key=""):
     """

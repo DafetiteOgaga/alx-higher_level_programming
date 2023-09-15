@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 if __name__ == "__main__":
     """Handles basic operations"""
     from calculator_1 import add, sub, mul, div

@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def update_dictionary(a_dictionary, key, value):
     """

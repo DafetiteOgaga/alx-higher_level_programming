@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <Python.h>
 /*
- * Author: Promise Nwhator
  */
 
 /**

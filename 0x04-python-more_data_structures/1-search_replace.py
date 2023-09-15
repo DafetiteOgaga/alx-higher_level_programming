@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def search_replace(my_list, search, replace):
     """

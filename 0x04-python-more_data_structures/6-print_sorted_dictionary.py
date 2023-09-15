@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def print_sorted_dictionary(a_dictionary):
     """
