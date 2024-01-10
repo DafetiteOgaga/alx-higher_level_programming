@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author - Prommise Nwhator
 
 def uppercase(str):
     """Print a string in uppercase followed by a new line."""

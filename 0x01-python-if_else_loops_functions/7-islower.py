@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author - Promise Nwhator
 
 def islower(c):
     """Function checks for lowercase characters. True if lowercase"""

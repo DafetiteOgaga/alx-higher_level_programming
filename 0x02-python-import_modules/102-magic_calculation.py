@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author: Promise Nwhator
 
 def magic_calculation(a, b):
     """Must match given bytecode provided"""

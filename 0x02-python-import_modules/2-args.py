@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author: Promise Nwhator
 if __name__ == "__main__":
     """Prints the result of the addition of all arguments"""
     import sys

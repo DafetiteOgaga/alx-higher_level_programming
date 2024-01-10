@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author: Promise Nwhator
 
 def best_score(a_dictionary):
     """

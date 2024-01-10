@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Author: Promise Nwhator
 
 def to_subtract(list_num):
     to_sub = 0
