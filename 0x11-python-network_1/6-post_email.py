@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-"""A script that:
-- takes in a URL,
-- sends a request to the URL and displays the value
-- of the X-Request-Id variable found in the header ofthe response.
-"""
+"""using requests module to fetch"""
+
 import sys
 import requests
 
 
 if __name__ == "__main__":
+    # get the url from the command line
     url = sys.argv[1]
-    value = {"email": sys.argv[2]}
+    email = sys.argv[2]
 
-    req = requests.post(url, data=value)
-    print(req.text)
+    # create a dictionary with the email parameter
+    data = {'email': email}
+
+    # send a POST request to the URL
+    response = requests.post(url, data=data)
+    print(response.text)

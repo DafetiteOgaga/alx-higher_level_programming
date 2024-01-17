@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
-if __name__ == "__main__":
-    """Prints the result of the addition of all arguments"""
-    import sys
+if __name__ == '__main__':
+    from sys import argv
 
-    all = 0
-    for i in range(len(sys.argv) - 1):
-        all += int(sys.argv[i + 1])
-    print("{}".format(all))
+    sum = 0
+    for arg in argv[1:]:
+        sum += int(arg)
+
+    print(sum)

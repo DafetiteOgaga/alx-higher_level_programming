@@ -1,14 +1,8 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
 
 def search_replace(my_list, search, replace):
-    """
-    Create a new list with the same elements as the input list
-    """
-    new_list = []
-    for elem in my_list:
-        if elem == search:
-            new_list.append(replace)
-        else:
-            new_list.append(elem)
+    new_list = my_list.copy()
+    for i in range(len(new_list)):
+        if new_list[i] == search:
+            new_list[i] = replace
     return new_list

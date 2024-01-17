@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+
 def print_matrix_integer(matrix=[[]]):
     for row in matrix:
-        for num in row:
-            print("{:d}".format(num), end=" " if num != row[-1] else "")
+        for column in row:
+            print("{:d}".format(column), end=" " if column != row[-1] else "")
         print()

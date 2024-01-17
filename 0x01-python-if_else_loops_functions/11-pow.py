@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author - Promise Nwhator
 
 def pow(a, b):
-    return (a ** b)
+    results = a ** b
+    return results

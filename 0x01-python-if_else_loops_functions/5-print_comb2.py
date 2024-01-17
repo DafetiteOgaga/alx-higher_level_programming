@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# Author - Promise Nwhator
-
-for i in range(0, 100):
-    if i == 99:
-        print("{}".format(i))
+for i in range(100):
+    if i < 99:
+        print("{:02d}, " .format(i), end="")
     else:
-        print("{:02}".format(i), end=", ")
+        print("{:02d}" .format(i))

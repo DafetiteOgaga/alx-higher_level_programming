@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-# Author - Promise Nwhator
 
-for num1 in range(0, 10):
-    for num2 in range(num1 + 1, 10):
-        if num1 == 8 and num2 == 9:
-            print("{}{}".format(num1, num2))
-        else:
-            print("{}{}".format(num1, num2), end=", ")
+for i in range(10):
+    for j in range(i+1, 10):
+        print("{:d}{:d}".format(i, j), end="")
+        if i != 8 or j != 9:
+            print(", ", end="")
+print()

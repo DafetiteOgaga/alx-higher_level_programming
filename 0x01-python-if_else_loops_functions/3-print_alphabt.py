@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# Author - Promise Nwhator
-
-for i in range(97, 123):
-    if chr(i) != 'q' and chr(i) != 'e':
-        print("{}".format(chr(i)), end="")
+for i in range(ord('a'), ord("z")+1):
+    if chr(i) not in ['q', 'e']:
+        print("{0}" .format(chr(i)), end='')
